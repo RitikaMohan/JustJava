@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.JustJava" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pinklight</item>
+        <item name="colorPrimaryDark">@color/pinkdark</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CustomText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/purple_200</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HeaderTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>
